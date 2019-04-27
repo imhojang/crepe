@@ -12,3 +12,5 @@ Today's remark: I managed to get my blog deploy on netlify.com with the blog nam
 Still got tons of things to learn, but gotta take one step at a time! 
 
 I just looked at the time and it 2:20 in the morning. Gotta love blogging with gatsby.js instead of good ol' Naver Blog or WordPress. Okay, for real now. Time to snooze. Good night world!
+
+![alt](hike.jpg "The hike at Ben Lomond")
