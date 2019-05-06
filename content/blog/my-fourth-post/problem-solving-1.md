@@ -20,13 +20,13 @@ description: my approach in solving an algorithm called divisibleSumPairs using 
 
 ---
 * 문제 이해 :
-  *   **Arguments to be passed into the function**  
+  *   **Arguments**  
   (1) array *ar* : an array of integers  
   (2) integer *k* : a positive integer  
   * **Conditions**  
   (1) when i < j,  
   (2) and ar[i] + ar[j] equal multiples of k,  
-  (3) ar[i] and ar[j] are a pair
+  (3) ar[i] and ar[j] are a valid pair
   * **Return**  
   (1) return the number of pairs that meet the condition above.
 
