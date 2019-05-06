@@ -19,7 +19,7 @@ ar = [1, 2, 3, 4, 5, 6] 이고 k = 5 일때, 조건을 만족하는 쌍은 [1, 4
 
 
 ---
-* 문제 이해 :
+문제 이해 :
   *   **Arguments**  
   (1) array *ar* : an array of integers  
   (2) integer *k* : a positive integer  
@@ -30,14 +30,14 @@ ar = [1, 2, 3, 4, 5, 6] 이고 k = 5 일때, 조건을 만족하는 쌍은 [1, 4
   * **Return**  
   (1) return the number of pairs that meet the condition above.
 
-* 해결 방법 :  
+해결 방법 :  
   * **Create a for loop** that loops through each item in the array (*declare index variable i*)
   * **Create a nested for loop** that always begins one index ahead of the outer loop and loops through rest of the item in the array (*declare index variable j*)
   * **Check if the sum of the integers** at ar[i] and ar[j] are divisible by the *argument integer k*
   * **Count** the number of times the sum of the pairs were multiples of k.  
   * on completion of the loop, **return the count of pairs**
 
-* 코드 구현 :  
+코드 구현 :  
   ~~~
   function divisibleSumPairs(k,ar) {
       var pairCount = 0;
@@ -50,7 +50,7 @@ ar = [1, 2, 3, 4, 5, 6] 이고 k = 5 일때, 조건을 만족하는 쌍은 [1, 4
   }  
   ~~~ 
 
-* 결과 분석 :  
+결과 분석 :  
   * The above function has successfully passed the folliwng tests
   * test case 1    
     * divisibleSumPairs(3, [1, 3, 2, 6, 1, 2]) equals 5
