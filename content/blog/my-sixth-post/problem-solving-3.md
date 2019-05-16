@@ -21,7 +21,7 @@ description: solving an algorithm called trailingZeros using JS
 * **Loop the array** from the end and count the number of consecutive zeros  
 
 #### 코드 구현 :  
-  ~~~
+  ```javascript
   function trailingZeros(n) {
     var factResult = 1;
     for (var i = n; i > 1; i--) {
@@ -36,7 +36,7 @@ description: solving an algorithm called trailingZeros using JS
     }
     return zeros;
   }
-  ~~~ 
+  ``` 
 
 #### 결과 분석 : 
   * **test case 2 failed** "expected 9.332621544394418e+157 to deeply equal 24"  
@@ -54,7 +54,7 @@ description: solving an algorithm called trailingZeros using JS
     * In conclusion, the number of trailing zeros of a number equals sum of the number divided by five, and the number divided by square of five, and the number divided by five to the third power, and so on.
 
 #### 코드 구현 : 
-~~~
+```javascript
 function trailingZeros(n) {
   var zeros = 0;
   var timesFive = 5;
@@ -65,7 +65,7 @@ function trailingZeros(n) {
   }
   return zeros;
 }
-~~~
+```
 #### 결과 분석 : 
 
   * **All tests passed !** 

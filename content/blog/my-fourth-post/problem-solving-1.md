@@ -24,7 +24,7 @@ description: my approach on divisibleSumPairs using JS
   * on completion of the loop, **return the count of pairs**
 
 #### 코드 구현 :  
-  ~~~
+  ```javascript
   function divisibleSumPairs(k,ar) {
       var pairCount = 0;
       for (var i = 0; i < ar.length; i++){
@@ -34,7 +34,7 @@ description: my approach on divisibleSumPairs using JS
       }
       return pairCount;
   }  
-  ~~~ 
+  ``` 
 
 #### 결과 분석 :  
   * **All tests passed !**

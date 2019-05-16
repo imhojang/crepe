@@ -24,7 +24,7 @@ description: my take on "pageCount" using JS
   * **Create a for loop** that increments/decrements page number by 2 everytime the loop is run. This loop should stop and return the number of flips if current page is equal or greater/less than the page of interest.  
   If the book is read from the front, current page should equal or be greater than the page of interest. However, if flipping starts from the back, current page should equal or be less than the page of interest.
 #### 코드 구현 :  
-  ~~~
+  ```javascript
   function pageCount(pagesTotal, page) {
     if (page <= pagesTotal / 2) {
       var currentPage = 1;
@@ -42,7 +42,7 @@ description: my take on "pageCount" using JS
       }
     }
   }
-  ~~~ 
+  ``` 
 
 #### 결과 분석 : 
 
@@ -58,7 +58,7 @@ description: my take on "pageCount" using JS
     * If the total number of pages is an even number, set it as the current page.
 
 #### 코드 구현 : 
-~~~
+```javascript
   function pageCount(pagesTotal, page) {
     if (page <= pagesTotal / 2) {
       var currentPage = 1;
@@ -76,7 +76,7 @@ description: my take on "pageCount" using JS
       }
     }
   }
-~~~
+```
 #### 결과 분석 : 
 
   * **All tests passed !** 
