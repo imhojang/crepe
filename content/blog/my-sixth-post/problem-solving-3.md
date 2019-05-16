@@ -9,7 +9,7 @@ description: solving an algorithm called trailingZeros using JS
   * **Arguments**  
   (1) `n` : an integer  
   * **Conditions**  
-  (1)  take the factorial of the integer `n` and
+  (1)  take the factorial of the integer `n` and  
   (2)  find the number of trailing consecutive zeros
   * **Return**  
   (1) return the number of trailing zeros
