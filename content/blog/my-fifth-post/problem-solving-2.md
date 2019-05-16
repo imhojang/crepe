@@ -1,7 +1,7 @@
 ---
 title: '[Problem Solving #2] pageCount'
 date: '2019-05-08 13:39:14'
-description: my take on solving an algorithm called "pageCount" using Javascript. 
+description: my take on "pageCount" using JS
 ---
 ## 교과서 넘기기 (pageCount)
 ---
