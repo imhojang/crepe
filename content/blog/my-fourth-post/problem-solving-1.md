@@ -3,8 +3,6 @@ title: '[Problem Solving #1] divisibleSumPairs'
 date: '2019-05-06 15:54:39'
 description: my approach in solving an algorithm called divisibleSumPairs using Javascript
 ---
-
-
 ## 합해서 나눠떨어지는 쌍 찾기
 
 정수로 이루어진 배열 ar과 양의 정수 k가 있습니다.  
