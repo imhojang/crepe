@@ -1,5 +1,5 @@
 ---
-title: My experience at Vanilla Coding
+title: 바닐라코딩? 바닐라코팅?
 date: '2019-05-16 17:17:44'
 description:  현존하는 대한민국 최고의 프론트 엔지니어링 교육기관인 바닐라코딩에서 부트캠프 프렙 과정을 들으며 느낀점들을 Q&A 형식으로 적어보았습니다 
 ---
