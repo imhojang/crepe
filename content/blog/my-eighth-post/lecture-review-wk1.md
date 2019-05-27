@@ -36,7 +36,8 @@ description: ''
 ---
 #### Number
     - Number._______(1); // ? Number._______(0.1); // ?
-    - What is the property of Number object that checks if a number is a integer and returns boolean?
+    - What is the property of Number object that checks if a 
+      number is a integer and returns boolean?
 
 ###### Handling Numbers 
 
@@ -54,15 +55,18 @@ description: ''
     - 2 === '2' // ?
     - == is known as t_______ c_______ operator
     - === is known as s_______ e_______ operator
-    - one shouuld always use _______ operator for comparing variables or just for any comparison
+    - one shouuld always use _______ operator for comparing 
+      variables or just for any comparison
     - null == undefined // ?
     - null === undefined // ?
     - NaN === NaN // ?
-    - Remember that NaN is _______ _______ _______ _______, including _______.
+    - Remember that NaN is _______ _______ _______ _______,
+     including _______.
 
     increment/decrement operators
     - What is the difference between --a and a-- (or ++a and a++)?
-    - Both increments/decrements the variable. However, returns different values.
+    - Both increments/decrements the variable. 
+      However, returns different values.
     - When a = 1, ++a returns _______.
     - When a = 1, a++ returns _______.
     - Think in terms of the order of the operator & value.
@@ -145,7 +149,8 @@ description: ''
 
 #### null & undefined
     - What are their differences?
-    - As a programmar one should use _______ in order to indicate that the value does not exist.
+    - As a programmar one should use _______ in order to indicate
+      that the value does not exist.
 
     - typeof null; // ? *hint: not null type*
 
@@ -163,8 +168,10 @@ description: ''
     foo(1,2); // ? *hint: [object Arguments]{   ?   }*
 
     - can use arguments.length
-    - however, object.length returns undefined => instead use Object.keys(myObj).length
-    - This is because arguments keyword has its own property called length, but object does not.
+    - however, object.length returns undefined => instead use
+      Object.keys(myObj).length
+    - This is because arguments keyword has its own property 
+      called length, but object does not.
 
 #### Control flow
     function add(x,y){ return function bar(){}; }
@@ -184,12 +191,14 @@ description: ''
 ###### for loop
     for( init() ; isValid() ; console.log(3) ) { return 3; }
 
-    - Write the order of each expression executed from the for loop above.
+    - Write the order of each expression executed from the for
+      loop above.
 
 #### Objects
 
 ###### Dot notation & Bracket Notation
-    - What are these and what is the specific case bracket notation must be used?
+    - What are these and what is the specific case bracket 
+      notation must be used?
 
 ###### Handling Objects
     var person;
@@ -214,13 +223,16 @@ description: ''
     'phone number' in person; // ?
 
 ###### Method
-    - A function can be assigned as the value of a property in an object. This is called a method.
+    - A function can be assigned as the value of a property
+      in an object. This is called a method.
     - Write a sample method.
 
 #### Array
     - typeof []; // ?
-    - A main difference between object and array is that items in array has an _______.
-    - Each value in an array are called _______ or _______. What is it in Korean?
+    - A main difference between object and array is that 
+      items in array has an _______.
+    - Each value in an array are called _______ or _______. 
+      What is it in Korean?
 
 
 ### Answers
@@ -237,7 +249,8 @@ description: ''
 ###### Identifier
     - What is it called in Korean? 식별자
     - It indicates the NAME of an assigned variable.
-    - ALPHABET, NUMBER, DOLLAR SIGN $ and UNDERSCORE _ can be used to create an identifier.
+    - ALPHABET, NUMBER, DOLLAR SIGN $ and UNDERSCORE _ can be 
+      used to create an identifier.
     - Identifiers cannot start with NUMBER.
     - Javascript KEYWORDS cannot be used as an identifer.
 
@@ -263,14 +276,16 @@ description: ''
     - What is the nmae of ** ? EXPONENTIATION OPERATOR
 
     comparison operators
-    - What is the difference between == and === ? == IS FLEXIBLE IN CHECKING EQUALITY WHILE === IS STRICT
+    - What is the difference between == and === ? == IS FLEXIBLE
+      IN CHECKING EQUALITY WHILE === IS STRICT
     - 0 == false // ? TRUE
     - 0 === false // ? FALSE
     - 2 == '2' // ? TRUE
     - 2 === '2' // ? FALSE
     - == is known as tYPE cOERCION operator
     - === is known as sTRICT eQUALITY operator
-    - one shouuld always use STRICT EQUALITY operator for comparing variables or just for any comparison
+    - one shouuld always use STRICT EQUALITY operator for comparing
+      variables or just for any comparison
     - null == undefined // TRUE
     - null === undefined // FALSE
     - NaN === NaN // FALSE
@@ -279,7 +294,8 @@ description: ''
     increment/decrement operators
     - What is the difference between --a and a-- (or ++a and a++)?
     THEY ARE DIFFERENT IN TERMS OF RETURN VALUES. 
-    - Both increments/decrements the variable. However, returns different values.
+    - Both increments/decrements the variable. However, returns 
+      different values.
     - When a = 1, ++a returns 2.
     - When a = 1, a++ returns 1.
     - Think in terms of the order of the operator & value.
@@ -315,7 +331,8 @@ description: ''
     - parseFloat('12.345'); // 12.345
     - parseInt('hello'); // NaN
 
-    - What does parseInt() & parseFloat() do? PARSES A NUMBER IN STRING INTO INTEGER OR DECIMAL
+    - What does parseInt() & parseFloat() do? PARSES A NUMBER IN 
+      STRING INTO INTEGER OR DECIMAL
 
 ---
 #### String
@@ -365,7 +382,8 @@ description: ''
     - What are their differences? 
     UNDEFINED IS USED TO INDICATE THAT A VALUE HAS NEVER BEEN ASSIGNED.
     NULL IS USED TO INDICATE THAT A VALUE DOES NOT EXIST.
-    - As a programmar one should use NULL in order to indicate that the value does not exist.
+    - As a programmar one should use NULL in order to indicate that 
+      the value does not exist.
 
     - typeof null; // ? OBJECT *hint: not null type*
 
@@ -373,7 +391,9 @@ description: ''
     function add(x,y){return x+y;}
                  (a)   (b)
     - What is (a)? ARGUMENT and what is it called in Korean? 인자
-    - What are the two main functions of (b)? IT IS THE CONCLUDING VALUE ON EXECUTION OF THE FUNCTION AND IT ALSO TERMINATES THE FUNCTION. CODE BELOW RETURN LINE INSIDE THE FUNCTION BODY WILL NOT BE READ.
+    - What are the two main functions of (b)? IT IS THE CONCLUDING VALUE ON EXECUTION
+      OF THE FUNCTION AND IT ALSO TERMINATES THE FUNCTION. CODE BELOW RETURN LINE 
+      INSIDE THE FUNCTION BODY WILL NOT BE READ.
 
 
 ###### arguments keyword in a function
@@ -425,13 +445,15 @@ description: ''
 ###### for loop
     for( init() ; isValid() ; console.log(3) ) { return 3; }
 
-    - Write the order of each expression executed from the for loop above. (1) init(), (2) isValid(), (3) return 3, (4) console.log(3)
+    - Write the order of each expression executed from the for loop above. 
+      (1) init(), (2) isValid(), (3) return 3, (4) console.log(3)
 
 #### Objects
 
 ###### Dot notation & Bracket Notation
     - What are these and what is the specific case bracket notation must be used? 
-    WHEN THE PROPERTY NAME INCLUDES STRINGS THAT DOES NOT FOLLOW THE RULES USED TO CREATE IDENTIFIERS (ex) Strings that are not alphabet, number, $, or _.
+    WHEN THE PROPERTY NAME INCLUDES STRINGS THAT DOES NOT FOLLOW THE RULES USED
+    TO CREATE IDENTIFIERS (ex) Strings that are not alphabet, number, $, or _.
 
 ###### Handling Objects
     var person;
