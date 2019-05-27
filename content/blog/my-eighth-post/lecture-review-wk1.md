@@ -1,7 +1,7 @@
 ---
 title: '[Learning JS] Javascript Grammar'
 date: '2019-05-27 14:06:28'
-description: 
+description: ''
 ---
 ### Javascript Grammar
 >Fill in the blank and answer the questions.
