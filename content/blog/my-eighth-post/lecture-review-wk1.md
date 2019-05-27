@@ -391,8 +391,8 @@ description: ''
     function add(x,y){return x+y;}
                  (a)   (b)
     - What is (a)? ARGUMENT and what is it called in Korean? 인자
-    - What are the two main functions of (b)? IT IS THE CONCLUDING VALUE ON EXECUTION
-      OF THE FUNCTION AND IT ALSO TERMINATES THE FUNCTION. CODE BELOW RETURN LINE 
+    - What are the two main functions of (b)? IT IS THE CONCLUDING VALUE ON EXECUTION  
+      OF THE FUNCTION AND IT ALSO TERMINATES THE FUNCTION. CODE BELOW RETURN LINE  
       INSIDE THE FUNCTION BODY WILL NOT BE READ.
 
 
