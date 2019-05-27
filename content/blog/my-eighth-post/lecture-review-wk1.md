@@ -1,7 +1,7 @@
 ---
 title: '[Learning JS] Javascript Grammar'
 date: '2019-05-27 14:06:28'
-description: ''
+description: ' '
 ---
 ### Javascript Grammar
 >Fill in the blank and answer the questions.
@@ -146,14 +146,14 @@ description: ''
 ###### Truthy & Falsey
     - In Javascript, all values are truthy but for these 8 values:
       *hint: 3 number types 2 string types 1 boolean type + 2 more.*
-
+---
 #### null & undefined
     - What are their differences?
     - As a programmar one should use _______ in order to indicate
       that the value does not exist.
 
     - typeof null; // ? *hint: not null type*
-
+--- 
 #### Function
     function add(x,y){return x+y;}
                  (a)   (b)
@@ -172,7 +172,7 @@ description: ''
       Object.keys(myObj).length
     - This is because arguments keyword has its own property 
       called length, but object does not.
-
+--- 
 #### Control flow
     function add(x,y){ return function bar(){}; }
 
@@ -193,7 +193,7 @@ description: ''
 
     - Write the order of each expression executed from the for
       loop above.
-
+--- 
 #### Objects
 
 ###### Dot notation & Bracket Notation
@@ -226,7 +226,7 @@ description: ''
     - A function can be assigned as the value of a property
       in an object. This is called a method.
     - Write a sample method.
-
+---
 #### Array
     - typeof []; // ?
     - A main difference between object and array is that 
@@ -234,7 +234,7 @@ description: ''
     - Each value in an array are called _______ or _______. 
       What is it in Korean?
 
-
+--- 
 ### Answers
 
 ###### Value
@@ -293,7 +293,7 @@ description: ''
 
     increment/decrement operators
     - What is the difference between --a and a-- (or ++a and a++)?
-    THEY ARE DIFFERENT IN TERMS OF RETURN VALUES. 
+      THEY ARE DIFFERENT IN TERMS OF RETURN VALUES. 
     - Both increments/decrements the variable. However, returns 
       different values.
     - When a = 1, ++a returns 2.
