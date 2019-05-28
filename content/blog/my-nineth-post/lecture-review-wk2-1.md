@@ -109,10 +109,12 @@ description: ' '
     var arr2 = arr;
     var arr3 = [1 ,2];
 
-    // Here both arr and arr2 are pointing at the same array object.
-    // Therefore, the change using arr2 variable will be reflected
-       in arr variable as well.
-
+    /*
+    Here both arr and arr2 are pointing at the same array object.
+    Therefore, the change using arr2 variable will be reflected
+    in arr variable as well.
+    */
+    
     arr2.pop();
 
     console.log(arr2) // [1, 2]
@@ -123,7 +125,9 @@ description: ' '
     arr2 === arr3 // false
     arr === arr3 /// false
 
+    /* 
     arr and arr2 do not equal to arr3 although they appear to have
     the same values. This is because the array object in arr and arr2
     is a just an another array object with same values as the values in arr3.
+    */
     
