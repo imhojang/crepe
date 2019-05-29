@@ -3,6 +3,7 @@ title: '[Learning JS] Object/Array & Primitive/Reference'
 date: '2019-05-27 16:26:01'
 description: ' '
 ---
+---
 ### Object 
 ---
 ###### example 1
@@ -44,8 +45,9 @@ description: ' '
                        objectName[propertyNameVariable]
 
     the variable used in bracket notation must be String
-
+---
 ### Array
+---
     It could be said that array is a subcategory of object.
 
     e.g. typeof [1, 2] // object
@@ -58,7 +60,9 @@ description: ' '
     e.g. var arr = [1,2,3]; 
          console.log( arr.push(4) ) // 4
     
+---
 ### Primitive
+---
     Boolean, number, string, null, and undefined are primitive types.
 
     Primitive values are immutable, meaning that they cannot be directly altered.
@@ -104,7 +108,9 @@ description: ' '
     original (external) foo's value. 
     In this situation, the external foo variable cannot be accessed in any way.
 
+---
 ### Reference
+---
     var arr = [1,2,3];
     var arr2 = arr;
     var arr3 = [1 ,2];
@@ -114,7 +120,7 @@ description: ' '
     Therefore, the change using arr2 variable will be reflected
     in arr variable as well.
     */
-    
+
     arr2.pop();
 
     console.log(arr2) // [1, 2]
