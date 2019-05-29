@@ -1,5 +1,5 @@
 ---
-title: '[Problem Solving #3] trailingZeros'
+title: '[Problem Solving] trailingZeros'
 date: '2019-05-10 14:58:47'
 description: solving an algorithm called trailingZeros using JS
 ---

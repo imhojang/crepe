@@ -1,5 +1,5 @@
 ---
-title: '[Problem Solving #1] divisibleSumPairs'
+title: '[Problem Solving] divisibleSumPairs'
 date: '2019-05-06 15:54:39'
 description: my approach on divisibleSumPairs using JS
 ---

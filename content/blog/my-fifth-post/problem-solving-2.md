@@ -1,5 +1,5 @@
 ---
-title: '[Problem Solving #2] pageCount'
+title: '[Problem Solving] pageCount'
 date: '2019-05-08 13:39:14'
 description: my take on "pageCount" using JS
 ---
