@@ -1,7 +1,7 @@
 ---
 title: '[Learning JS] Scope & Hoisting'
 date: '2019-05-28 15:02:29'
-description: ' ' 
+description: 'few important concepts to remember in scope and hoisting in Javascript' 
 ---
 ---
 ### Scope #1

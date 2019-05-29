@@ -1,7 +1,7 @@
 ---
 title: '[Learning JS] Object/Array & Primitive/Reference'
 date: '2019-05-27 16:26:01'
-description: ' '
+description: 'notes on object, array, primitive and reference data type in Javascript'
 ---
 ---
 ### Object 
