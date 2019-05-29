@@ -1,7 +1,7 @@
 ---
 title: '[Learning JS] Javascript Grammar'
 date: '2019-05-27 14:06:28'
-description: 'fill in the blank & short answer questions written to review javascript grammar'
+description: 'fill in the blank & short answer questions written to review Javascript grammar'
 ---
 >Fill in the blank and answer the questions.  
 >On completion, check your answers with the answers on the bottom of the page. 
