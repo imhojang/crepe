@@ -47,10 +47,11 @@ The response tab can be used to check the contents of the file.
 <img src="debugger1.png" width="400" />  
 
 While developer tools window is open and if 'debugger;' expression executes inside a function, the code will stop running exactly where the debugger expression is located.  
-If the developer tools window is not open,, the code will not stop running even if debugger expression is read.
+If the developer tools window is not open,, the code will not stop running even if debugger expression is read.  
+Since the code stops when the debugger expression is read, the debugger expression should be placed before the line of code that requires debugging.
 
 ---
-### resume 
+### Resume 
 ---
 
 <img src="resume.png" width="400" />  
@@ -60,7 +61,7 @@ Clicking on the resume button when the debugger expression has stopped the code 
 If there is no debugger expression in the rest of the code, the code will run until the end of the file. 
 
 ---
-### step over
+### Step over
 ---
 
 <img src="stepover.png" width="400" />
@@ -68,17 +69,53 @@ If there is no debugger expression in the rest of the code, the code will run un
 Clicking on the step over button when the debugger expression has stopped the code will run the next line of execution inside the function.  
 
 ---
-### mouseover on a variable
+### Mouseover on a variable
 ---
 <img src="mouseover.png" width="400" />
 
 Bringing cursor over a variable will display its current value. This can be useful when there is a need to check the variable's value while debugging the code.
 
 ---
-### variables in local scope
+### Variables in local scope
 ---
 
 <img src="scopevars.png" width="400" />  
 
 On the righthand side of the debugger window, local variables and their values are shown under "scope".
+
+---
+### Add breakpoint 
+---  
+
+
+<img src="addbreakpoint1.png" width="400" />  
+
+Clicking on the line number adds breakpoint which will stop the code when the code running resumes. The addition of breakpoint is noted as the blue block on the line which breakpoint is present.  
+
+---
+### Add conditional breakpoint  
+---
+
+
+<img src="addbreakpoint2.png" width="400" />  
+
+Left-click on the line numbers adds a breakpoint to the file in debugger mode. However, right-click opens up a list of options available regarding breakpoint. Click on 'add conditional breakpoint'.
+
+---    
+<img src="addbreakpoint3.png" width="400" />
+
+This will open up a text input where conditions can be inserted. In this example, the breakpoint wl be addeild to stop the code when the variable i has the value of 15. Then press 'Enter' key to add the conditional breakpoint.
+
+---
+<img src="addbreakpoint4.png" width="400" />
+
+The conditional breakpoint will be noted as a orange block on the left-hand side. 
+
+---
+<img src="addbreakpoint5.png" width="400" />
+
+This is after the code running was resume. It is noticeable how the debugger stopped the code when the value of variable i is 15.  
+This is how one would add conditional breakpoints using developer tools in debugger mode.
+
+---
 
