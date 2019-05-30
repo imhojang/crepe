@@ -3,34 +3,11 @@ title: [Learning JS] Debugging with developer tools
 date: '2019-05-29 16:04:14'
 description: ' '
 ---
-## 2019-05-13 18:41:22 다섯번째 수업 @ vanilla coding
 
-------
-
-### HTML review
-
-------
-
-```html
-<!DOCTYPE HTML>
-  <html>
-    <head>
-      <title>Title of a webpage</title>
-      <link rel="stylesheet" href="./main.css" />
-    </head>
-    <body>
-
-      <script src="./index.js"></script>
-    </body>
-  </html>
-```
-
-Try to write this basic structure of HTML which loads CSS and JS file without any aid! It can be trickier than you think... 
-
+---
 ## Debugger Tools
-
+--- 
 ### Network
-
 ------  
 <img src="network.png" width="400" />  
 
@@ -118,4 +95,21 @@ This is after the code running was resume. It is noticeable how the debugger sto
 This is how one would add conditional breakpoints using developer tools in debugger mode.
 
 ---
+### HTML review
+---
 
+```html
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Title of a webpage</title>
+      <link rel="stylesheet" href="./main.css" />
+    </head>
+    <body>
+
+      <script src="./index.js"></script>
+    </body>
+  </html>
+```
+
+Try to write this basic structure of HTML which loads CSS and JS file without any aid! It can be trickier than you think... 
