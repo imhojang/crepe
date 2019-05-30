@@ -1,14 +1,11 @@
 ---
 title: '[Learning JS] Debugging with developer tools'
 date: '2019-05-29 16:04:14'
-description: ' '
+description: 'how to use developer tools for debugging'
 ---
-
 ---
-## Debugger Tools
---- 
 ### Network
-------  
+---
 <img src="network.png" width="400" />  
 
 In developer tools, network menu displays the files that have been downloaded when loading a website. Files that have been loaded first will be on the top of the list. 
