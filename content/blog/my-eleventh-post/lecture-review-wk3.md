@@ -1,7 +1,7 @@
 ---
 title: '[Learning JS] Debugging with developer tools'
 date: '2019-05-29 16:04:14'
-description: 'debugging for dummies'
+description: 'set of tools for debugging in developer tools window'
 ---
 ---
 ### Network
