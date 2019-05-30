@@ -1,5 +1,5 @@
 ---
-title: [Learning JS] Debugging with developer tools
+title: '[Learning JS] Debugging with developer tools'
 date: '2019-05-29 16:04:14'
 description: ' '
 ---
