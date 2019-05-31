@@ -1,5 +1,5 @@
 ---
-title: Why var and let bindings behave differently using setTimeout function?
+title: Why var and let bindings behave differently using setTimeout function
 date: '2019-05-31 14:45:10'
 description: ' '
 ---
@@ -31,7 +31,7 @@ However, it actually clogs this:
 'print i : 5'
 ~~~
 At first, this was counterintuitive, but things made sense after some research. 
-The short answer why this is happening is because variable declared with `var` keyword has a **function scope**, and there's only **one shared binding** for each of the loop iteration. 
+The short answer for why this is happening is because variable declared with `var` keyword has a **function scope**, and there's only **one shared binding** for each of the loop iteration. 
 For example, imagine that the compiler does this inside the for loop :
 ~~~javascript
 setTimeout(function (){ console.log('print i : ' + i ), 0 * 1000} );
@@ -157,3 +157,4 @@ function timeOut() {
 ~~~
 
 This produces the same effect of using `let` keyword as the previous example.
+
