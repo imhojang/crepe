@@ -174,12 +174,14 @@ To set the optional boolean value to true,
 `var copy = element.cloneNode(true);`
 
 ---
-## 9. insertBefore()
+## 9. insertBefore() & insertAfter()
 ---
 
-Adds an element before another child element. 
+Adds an element before/after another child element. 
 
 `parentElement.insertBefore(newChild, refChild);`
+
+`parentElement.insertAfter(newChild,refChild);`
 
 ---
 ## 10. createDocumentFragment()
