@@ -67,9 +67,9 @@ function timeOut(){
 }
 ~~~
 
-After understanding why the actual clog of `i` is different from the expection was 
+After understanding why the actual clog of `i` using `var` keyword is different from the expection, these questions followed up inside my head:
 >"Why does the variable `i` do not get affected in the same way?"   
->"Why does it clog 0, 1, 2, 3, 4, 5 seconds after the execution of the function?"
+>"Why does it clog 0, 1, 2, 3, 4, 5 seconds after the execution of the function?"  
 >"Shouldn't it clog each iteration after 6 seconds if it is consistent with the logic above?"
 
 After giving some thought, I realized that setTimeout's first argument, `function { console.log(i);}`, behaves differently from the second argument, `i * 1000`.
@@ -88,8 +88,7 @@ executes setTimeout function in the function body.
 in another word, "after 0 * 1000msec, call this function(){ console.log.(i); }"
 
 the variable i inside console.log is not yet applied,
-because the loop iterations are quicker than the calling of
-callback functions, unless specified as immediately invoked function (IIFE).
+because the loop iterations have a precedence over the call of callback functions, unless specified as immediately invoked function (IIFE).
 */
 i++ // i = 1
 1 < 6
@@ -118,7 +117,7 @@ after corresponding time has passed.
 
 So, how is this different from using `let` keyword to declare a variable?
 
-With `let` the variable declared has a block scope, and when used inside a for loop, **there will be a binding for each iteration.** Every setTimeout callback refers to a **different variable**, each of which has a different value. The first one is 0, next one is 1, etc.
+With `let`, the variable has a block scope, and when used inside a for loop, **there will be a binding for each iteration.** Every setTimeout callback refers to a **different variable**, each of which has a different value. The first one is 0, next one is 1, etc.
 
 ~~~javascript
 function timeOut(){
@@ -156,5 +155,5 @@ function timeOut() {
 };
 ~~~
 
-This produces the same effect of using `let` keyword as the previous example.
+Using IIFE with `var` keyword produces identical effect of using `let` keyword.
 
