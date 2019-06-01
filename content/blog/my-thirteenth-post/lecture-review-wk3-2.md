@@ -67,7 +67,7 @@ console.log(a) // 1
 ---
 ## Temporal Dead Zone (TDZ)
 ---
-Definition of temporal dead zone from MDN:
+Definition of temporal dead zone from [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let#Temporal_dead_zone):
 >**let** bindings are created at the top of the
 (block) scope containing the declaration, commonly referred to as 
 "hoisting". Unlike variables declared with `var`, which will start with the value `undefined`, `let` variables are *not* initialized until their definition is evaluated. Accessing the variable before the initialization results in a `ReferenceError`. The variable is in a "temporal dead zone" from the start of the block until the initialization is processed.
