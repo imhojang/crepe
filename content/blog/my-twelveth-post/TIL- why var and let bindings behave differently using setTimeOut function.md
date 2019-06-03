@@ -48,6 +48,7 @@ setTimeout(function (){ console.log('print i : ' + i ), 5 * 1000} );
 // sixth iteration: clog value of i after 5 sec
 ~~~
 After these setTimeout callback functions have been made, the *variable `i`* will have the value of 5.  
+> A callback function is a special function which is used in AJAX so that server can respond to the client when it is ready to send data to the client.
 
 Then the each of the setTimeout callback functions will be executed, which in turn prints `print i : 5` five times.
 
