@@ -1,7 +1,7 @@
 ---
 title: Why var and let bindings behave differently using setTimeout function
 date: '2019-05-31 14:45:10'
-description: ' '
+description: 'this one was bugging me so I made a post about it'
 ---
 ~~~javascript
 function timeOut() {

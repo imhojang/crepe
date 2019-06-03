@@ -1,7 +1,7 @@
 ---
 title: Javascript methods for DOM Manipulation 
 date: '2019-06-01 19:51:49'
-description: ' ' 
+description: 'list of useful DOM methods and how to use them' 
 ---
 
 
