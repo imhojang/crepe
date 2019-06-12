@@ -1,13 +1,16 @@
 ---
-title: My Second Post!
-date: "2015-05-06T23:46:37.121Z"
+title: My Second Post
+date: '2019-04-25T17:10:00Z'
+description: Just a small rant in the middle of the night
 ---
 
-Wow! I love blogging so much already.
 
-Did you know that "despite its name, salted duck eggs can also be made from
-chicken eggs, though the taste and texture will be somewhat different, and the
-egg yolk will be less rich."?
-([Wikipedia Link](http://en.wikipedia.org/wiki/Salted_duck_egg))
+Blogging with gatsby.js has been a wonderful experience. Words cannot express how much I love using and experimenting it! It's just very straight forward and very easy to get around. I had to encounter stuff I have never heard of, such as React.js, GraphQL, Markdown etc, but they were no big deal. My best pals Google and Youtube have been a huge help in this.  
 
-Yeah, I didn't either.
+Today's remark: I managed to get my blog deploy on netlify.com with the blog name inside the url (pieceofcrepe.netlify.com). From now on the blog will be LIVE online. Hooray! Also the photogenic profile picture of me is now up and the bio has been updated so that it links to my social media account.
+
+Still got tons of things to learn, but gotta take one step at a time! 
+
+I just looked at the time and it 2:20 in the morning. Gotta love blogging with gatsby.js instead of good ol' Naver Blog or WordPress. Okay, for real now. Time to snooze. Good night world!
+
+![alt](hike.jpg "The hike at Ben Lomond")
