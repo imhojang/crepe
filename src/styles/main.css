@@ -34,3 +34,11 @@ p {
 main div:first-child {
   height: 70px;
 }
+
+footer {
+  color: #FFA7C4;
+}
+
+footer a {
+  color: #FFA7C4;
+}
