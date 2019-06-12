@@ -39,7 +39,7 @@ function Bio() {
             />
             <p>
               Personal blog by <strong><a href={`https://instagram.com/oyvvl`}>{author}</a></strong>. <br />
-              Stackin' those JS crepes.
+              Stackin' those JS crepes er'day
             </p>
           </div>
         )
