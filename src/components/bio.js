@@ -38,12 +38,8 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in Seoul, South Korea
-              building useful things.
-              {` `}
-              <a href={`https://instagram.com/oyvvl`}>
-                You should follow him on Instagram
-              </a>
+              Personal blog by <strong><a href={`https://instagram.com/oyvvl`}>{author}</a></strong>. <br />
+              Stackin' those JS crepes.
             </p>
           </div>
         )

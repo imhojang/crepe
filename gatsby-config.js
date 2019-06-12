@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Piece of Crepe`,
+    title: `pieceofcrepe`,
     author: `Imho Jang`,
     description: `A blog about me and my front engineering journey.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
+        name: `GatsbyJS`,
         short_name: `GatsbyJS`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },
